@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MathSymbol</string>
+    <string name="action_settings">About</string>
+    <string name="action_about">about</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="mathBasic">Basic</string>
+    <string name="mathGeometry">Geometry</string>
+    <string name="mathAlgebra">Algebra</string>
+    <string name="mathProbability">Probability</string>
+    <string name="mathSet">Set</string>
+    <string name="mathLogic">Logic</string>
+    <string name="buttonSwitch_show">Quiz</string>
+    <string name="buttonSwitch_quize">Back</string>
+    <string name="mathCalculus">Calculus</string>
+    <string name="enterMain">Got it</string>
+    <string name="introduce">Remember math symbol in a short time.</string>>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="author">by Freddie</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+
+</resources>
