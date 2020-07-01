@@ -10,6 +10,17 @@ import java.util.TimerTask;
 public class WelcomeActivity extends Activity {
 
 
+    TimerTask task = new TimerTask() {
+        @Override
+        public void run() {
+
+            Intent in = new Intent().setClass(WelcomeActivity.this,
+                    MainActivity.class).addFlags(
+                    Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(in);
+            finish();
+        }
+    };
     private long delay = 3000;
     private int i = 0;
 
@@ -21,17 +32,6 @@ public class WelcomeActivity extends Activity {
         timer.schedule(task, delay);
 
     }
-    TimerTask task = new TimerTask() {
-        @Override
-        public void run() {
-
-            Intent in = new Intent().setClass(WelcomeActivity.this,
-                    MainActivity.class).addFlags(
-                    Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(in);
-            finish();
-        }
-        };
 }
 
 

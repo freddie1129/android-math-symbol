@@ -3,7 +3,7 @@ package com.fredroid.mathsymbol;
 /**
  * Created by jackttc on 10/8/17.
  */
-class  MetaItem {
+class MetaItem {
     final static int BASIC = 1;
     final static int GEOMETRY = 2;
     final static int ALGEBRA = 3;
@@ -44,11 +44,11 @@ class  MetaItem {
             {"ppm", "per-million"},
             {"ppb", "per-billion"},
             {"ppt", "per-trillion"},
-            };
+    };
     static String[][] mathGeometry = new String[][]{
             {"∠", "angle"},
-            {"fig","measured angle"},
-            {"fig","spherical angle"},
+            {"fig", "measured angle"},
+            {"fig", "spherical angle"},
             {"∟", "right angle"},
             {"°", "degree"},
             {"deg", "degree"},
@@ -133,7 +133,7 @@ class  MetaItem {
             {"Geom(p)", "geometric distribution"},
             {"HG(N,K,n)", "hyper-geometric distribution"},
             {"Bern(p)", "Bernoulli distribution"},
-            };
+    };
     static String[][] mathSet = new String[][]{
             {"{ }", "set"},
             {"A ∩ B", "intersection"},
@@ -151,11 +151,11 @@ class  MetaItem {
             {"A∆B", "symmetric difference"},
             {"a∈A", "element of"},
             {"x∉A", "not element of"},
-            {"(a,b)","ordered pair"},
+            {"(a,b)", "ordered pair"},
             {"A×B", "cartesian product"},
             {"|A|", "cardinality, the number of elements of set A"},
-            {"fig","aleph null means infinite cardinality of natural numbers set"},
-            {"fig","aleph one means cardinality of countable ordinal number set"},
+            {"fig", "aleph null means infinite cardinality of natural numbers set"},
+            {"fig", "aleph one means cardinality of countable ordinal number set"},
             {"Ø", "empty set"},
             {"fig", "whole numbers set"},
             {"fig", "whole numbers set without zero"},
@@ -163,7 +163,7 @@ class  MetaItem {
             {"fig", "rational numbers set"},
             {"fig", "real numbers set"},
             {"fig", "complex numbers set"},
-};
+    };
     static String[][] mathLogic = new String[][]{
             {"⋅", "and"},
             {"^", "caret/circumflex, and"},
@@ -185,7 +185,7 @@ class  MetaItem {
             {"∄", "there does not exists"},
             {"∴", "therefore"},
             {"∵", "because or since"},
-            };
+    };
     static String[][] mathCalculus = new String[][]{
             {"fig", "limit"},
             {"ε", "epsilon"},
@@ -218,8 +218,7 @@ class  MetaItem {
             {"∞", "lemniscate,infinity symbol"},
 
 
-};
-
+    };
 
 
 }
