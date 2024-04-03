@@ -11,9 +11,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.fragment.app.FragmentStatePagerAdapter;
-import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
@@ -57,8 +54,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             AlertDialog alertDialog = new AlertDialog.Builder(this).create();
             alertDialog.setTitle("About");
-            alertDialog.setMessage(Html.fromHtml("<b/><p>Developer: <a href=\"mailto:freddiechenchen@gmail.com\">freddiechenchen@gmail.com</a></p>" +
-                    "<p>Source Code:<a href=\"https://github.com/freddie1129/android-math-symbol\">Github</a></p>"));
+            alertDialog.setMessage(Html.fromHtml("<b/><p>Developer: <a href=\"mailto:freddiechenchen@gmail.com\">freddiechenchen@gmail.com</a></p>"));
             alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "OK",
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {

@@ -11,7 +11,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 
-
 public class ContainerFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     private static final String ARG_POSITION = "tabposition";
@@ -89,7 +88,6 @@ public class ContainerFragment extends Fragment {
         return view;
 
     }
-
 
 
 }

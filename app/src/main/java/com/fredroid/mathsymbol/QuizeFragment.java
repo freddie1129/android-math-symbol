@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-
 public class QuizeFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     private static final String ARG_PARAM1 = "param1";
@@ -123,8 +122,6 @@ public class QuizeFragment extends Fragment {
         }
 
 
-
-
         mstrAnswerA = "A. " + data[index[mansList.get(0)]][1];
         butAnswerA.setText(mstrAnswerA);
         mstrAnswerB = "B. " + data[index[mansList.get(1)]][1];
@@ -162,8 +159,6 @@ public class QuizeFragment extends Fragment {
         questionCollection[3] = quesIndex;      //Last one always is the index of question's answer
         return questionCollection;
     }
-
-
 
 
     public void nextQuestion(int Answer, String txt) {
@@ -226,7 +221,6 @@ public class QuizeFragment extends Fragment {
         pbarIndex = view.findViewById(R.id.progressBar);
         pbarIndex.getProgressDrawable().setColorFilter(
                 Color.BLUE, android.graphics.PorterDuff.Mode.SRC_IN);
-
 
 
         refreshUI();

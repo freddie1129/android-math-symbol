@@ -17,7 +17,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     Context mcontext;
 
     public SectionsPagerAdapter(FragmentManager fm, Context context) {
-        super(fm,BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         mcontext = context;
         mFragmentManager = fm;
         for (int i = 0; i < TAB_NUM; i++) {
