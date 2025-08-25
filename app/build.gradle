@@ -6,7 +6,7 @@ android {
         applicationId "com.fredroid.mathsymbol"
         minSdkVersion 26
         targetSdkVersion 36
-        versionCode 7
+        versionCode 8
         versionName "1.$versionCode"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
