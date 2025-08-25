@@ -13,10 +13,10 @@ android {
 
     signingConfigs {
         release {
-            keyAlias ''
-            keyPassword ''
+            keyAlias 'key0'
+            keyPassword 'ChenZhu19820629'
             storeFile file('../key.jks')
-            storePassword ''
+            storePassword 'ChenZhu19820629'
         }
     }
 
@@ -24,7 +24,7 @@ android {
     buildTypes {
         release {
             minifyEnabled true
-            shrinkResources true
+            shrinkResources false
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
