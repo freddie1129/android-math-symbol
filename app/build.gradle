@@ -13,10 +13,10 @@ android {
 
     signingConfigs {
         release {
-            keyAlias 'key0'
-            keyPassword 'ChenZhu19820629'
+            keyAlias ''
+            keyPassword ''
             storeFile file('../key.jks')
-            storePassword 'ChenZhu19820629'
+            storePassword ''
         }
     }
 
