@@ -10,3 +10,4 @@
 .idea/caches/*
 key.jks
 .idea/gradle.xml
+.idea/*
